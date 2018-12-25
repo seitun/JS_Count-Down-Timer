@@ -1,0 +1,57 @@
+*{
+    font-family: 'Nunito', sans-serif;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+body{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 185, 154, 0.6);
+}
+#timer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    background-color: white;
+    box-shadow: 0px 6px 8px rgba(44,62,80,0.15);
+    padding: 50px 50px 20px 50px;
+    border: 0px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#timer-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timer{
+    width: inherit;
+    height: 150px;
+    background-color:rgb(37, 185, 154, 0.8); 
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    box-shadow: 0px 4px 8px rgba(44,62,80,0.3);
+    border: 0px solid;
+    border-radius: 10px;
+    margin: 10px 10px 20px 10px;
+}
+.btn{
+    width: 50px;
+    margin: 10px 20px;
+}
+.btn:active{
+    border-bottom: 1px solid rgb(37, 185, 154, 0.8);
+    transition: 400ms;
+}
